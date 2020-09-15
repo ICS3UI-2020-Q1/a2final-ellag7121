@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "45",
+      "output": "What is the size of the pizza (in cm):\r\nSubtotal: $24.24\r\nTaxes: $3.1512\r\nTotal: $27.3912\r\nThis will be delicious!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
